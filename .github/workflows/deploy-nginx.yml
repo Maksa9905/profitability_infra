@@ -5,8 +5,10 @@ on:
     branches: [main]
     paths:
       - 'nginx/**'
+      - 'certbot/**'
       - 'docker-compose.yml'
       - 'scripts/deploy-nginx.sh'
+      - 'scripts/certbot-deploy-hook.sh'
       - '.github/workflows/deploy-nginx.yml'
 
 jobs:
