@@ -12,6 +12,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: profitability
     steps:
       - name: Deploy via git pull on VPS
         uses: appleboy/ssh-action@v1.0.3
